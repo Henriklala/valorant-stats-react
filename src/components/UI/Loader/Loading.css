@@ -1,0 +1,38 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 20%;
+    left:calc(50% - 23px);
+    margin: 30%;
+}
+
+.bar {
+    display: inline-block;
+    width: 8px;
+    height: 95px;
+    background-color: #ff465662;
+    border-radius: 10px;
+    animation: scale-up 1s linear infinite;
+}
+
+.bar:nth-child(2) {
+    height: 135px;
+    margin: 0 10px;
+    animation-delay: .25s;
+}
+
+.bar:nth-child(3) {
+    animation-delay: .5s;
+}
+
+@keyframes scale-up {
+    20% {
+        background-color: #ff4655;
+        transform: scaleY(1.5);
+    }
+    40% {
+        transform: scaleY(1);
+    }
+}

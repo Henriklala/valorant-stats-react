@@ -1,0 +1,20 @@
+.btn-style {
+    display: inline;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #3c67e3;
+    border-radius: 10px;
+    background-color: #15151500;
+    box-shadow: 0 0 8px #5ddcff, 0 0 16px #4e00c2;
+}
+
+.btn-style:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+    }
+}

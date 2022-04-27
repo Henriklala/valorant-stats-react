@@ -1,0 +1,30 @@
+.main-card {
+  width: 80%;
+  height: 25rem;
+  margin: 1rem auto;
+  margin-top: 10rem;
+}
+
+h2 {
+  color: #fff;
+}
+
+.main-search {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  margin: 10px 0 25px 0;
+  width: 60%;
+  height: 30px;
+  padding: 0 0 0 5px;
+}
+
+button {
+  font-size: large;
+  width: 50%;
+  height: 40px;
+}

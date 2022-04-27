@@ -1,0 +1,35 @@
+{
+  "Slaktarkalle": [
+    {
+      "Current_rank": "diamond",
+      "icon": "diamond.png",
+      "Damage": "144.2",
+      "KD": "1.08",
+      "Headshot": "19.8",
+      "Win": "54.5",
+      "Accuracy": [
+        {
+          "Head": "20.2",
+          "Body": "72.3",
+          "Legs": "7.4"
+        }
+      ]
+    }
+  ],
+  "Torsk1": [
+    {
+      "Current_rank": "Platinum",
+      "Damage": "127.0",
+      "KD": "0.83",
+      "Headshot": "22.4",
+      "Win": "51.2",
+      "Accuracy": [
+        {
+          "Head": "23.9",
+          "Body": "70.6",
+          "Legs": "5.5"
+        }
+      ]
+    }
+  ]
+}
