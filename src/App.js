@@ -13,7 +13,7 @@ function App() {
   const searchAgentHandler = async (agentSearch) => {
     setValorantContent(false);
     setIsLoading(true);
-    const res = await fetch(`${`http://localhost:5000/${agentSearch}`}`);
+    const res = await fetch(`${`http://localhost:5050/${agentSearch}`}`);
     const Data = await res.json();
 
     const transformedData = Data.map((valData) => {
